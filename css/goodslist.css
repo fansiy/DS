@@ -1,0 +1,57 @@
+body,html{background: #fff;}
+
+.navigation{
+	width: 1190px;
+	height: 195px;
+	margin: auto;
+	padding-top: 25px;
+	padding-bottom: 32px;
+	box-sizing: border-box;
+	
+}
+.nav-body{
+	width: 1190px;
+	height: 32px;
+	line-height: 32px;
+	text-align: left;
+	border-left: #ccc solid 1px;
+	border-right: #ccc solid 1px;
+	border-bottom: #999 solid 1px;
+}
+
+.nav-body p{width: 79px;height: 32px;display: inline-block;text-align:right;padding-right: 10px;font-size: 12px;background: #eee;}
+.nav-head{height:37px;border: #ccc solid 1px;width: 1192px;}
+.nav-head li{width: 24px;height: 35px;padding-left:18px ;padding-right: 26px;float: left;font-size: 12px;line-height: 35px;border-right: #ccc solid 1px;}
+
+.nav-body a{text-decoration: none;color: #333;font-size: 12px;padding: 0 10px;}
+
+.navigation1{width: 1190px;height: 33px;background: #eee;margin-top: 32px;}
+.navigation1 ul li{float: left;width: 95px;height: 32px;border-right: #eee solid 1px;text-align: center;line-height: 32px;font-size: 14px;background: #BD4147;}
+.navigation1 ul li:last-child{background: #eee;}
+.navigation1 ul li a{text-decoration:none ;color: #fff;}
+.pagination{margin-top: 3px;margin-right: 60px;float: right;}
+
+#goods{width: 1200px;margin: auto;overflow: hidden;padding-bottom: 30px;padding-left: 20px;}
+/*.foot-t:after{content:".";display: block;height: 0;visibility: hidden;clear: both;}*/
+
+#goods dl{width: 232px;background:rgba(230,230,230,0);margin-top: 26px;height: 320px;box-sizing: border-box;padding-top: 4px;float: left;}
+/*#goods dl:nth-child(5n+1){margin-left: 20px;}*/
+
+#goods dl:hover{background: rgba(230,230,230,.8);}
+
+#goods dl dt{width: 222px;height: 230px;border:1px #999 solid;margin-left: 4px;margin-top: 4px;margin-right: 4px;box-sizing: border-box;background-color: #fff;position: relative;}
+
+.icon{width: 55px;height: 55px;background: url(../img/tubiao.png) repeat;position: absolute;z-index:1;}
+
+
+#goods dl dt img{width: 177px;height: 177px;transform: translate(22px,25px);}
+
+#goods dl dd em{margin-top: 10px;font-style: normal;font-size: 12px;background: #BD4147;display: block;width: 100px;height: 20px;color: #fff;text-align: center;line-height: 20px;cursor: pointer;}
+
+#goods dl dd{padding:10px;}
+#goods dl dd p{font-size: 14px;}
+#goods dl dd span{font-size: 12px;}
+
+#goods dl dd span:nth-child(2){color: #C82333;font-size: 18px;}
+#goods dl dd span:nth-child(3){text-decoration: line-through;}
+

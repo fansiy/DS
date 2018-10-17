@@ -1,0 +1,36 @@
+body,html{background: #fff;}
+
+*{margin: 0;padding: 0;}
+
+.cart{width: 990px;height: 20px;margin: auto;text-align: center;line-height: 20px;font-size: 12px;margin-top: 20px;padding-bottom: 40px;background: url(../img/car1.png) no-repeat 100px bottom;margin-bottom: 20px;}
+.cart li{height: 20px;padding-left: 120px;margin-right: 55px;float: left;}
+
+.tab{margin: auto;width: 990px;font-size: 14px;}
+.tab thead th{font-weight: normal;background: #eee;height: 36px;border-top:  #ccc solid 1px;}
+.tab thead th:first-child{border-left:  #ccc solid 1px;}
+.tab thead th:last-child{border-right:  #ccc solid 1px;}
+.tab tr td{height: 81px;text-align: center;background: #FFF3CD;}
+.tab tbody tr td:nth-of-type(3){color: #C82333;}
+.tab tr td img{width: 77px;height: 77px;float: left;margin-left: 10px;margin-top: 2px;margin-right: 10px;}
+.tab tbody tr td i{font-style:normal;display: block;display: inline-block;float: left;width: 300px;margin-top: 10px;}
+.tab tbody tr td:first-child{width:400px;font-size: 12px;height: 81px;text-align: left;box-sizing: border-box;}
+.tab tbody td a{text-decoration: none;cursor:pointer;color: #0069D9;}
+.tab tbody td p{color: #1E7E34;}
+.tab tbody td a:hover{color: #CC0033;}
+.tab tbody td:nth-of-type(4) input{width: 40px;}
+.tab tfoot td{text-align: left;background: #fff;border-bottom: #ccc solid 1px;height: 60px;}
+.tab tr td{border-top: 1px #ccc solid;}
+.tab tr td:nth-of-type(1){border-left: #ccc solid 1px;}
+.tab tr td:last-child{border-right: #ccc solid 1px;}
+.clearall a{margin-left: 10px;display: block;cursor: pointer;}
+.clearall a:hover{color: #CC0033;}
+.all{width: 990px;height: 38px;text-align: right;line-height: 38px;background: #eee;margin: auto;font-size: 14px;padding-right:15px ;border:#ccc solid 1px;border-top: none;box-sizing: border-box;}
+.all span{color: #C82333;font-weight: bold;font-size: 20px;}
+
+.bottom{width: 990px;height: 66px;margin: auto;font-size: 12px;}
+.bottom-l{width: 600px;height: 20px;float: left;margin-top: 5px;}
+.bottom-r{width: 200px;height: 66px;float: right;margin-top:5px ;}
+.bottom-l span:nth-of-type(1){color: #BD4147;}
+.bottom-r a{background: url(../img/car.png) no-repeat left center;width: 70px;height: 26px;display: block;line-height: 26px;padding-left: 20px;float: left;text-decoration: none;color: #333;}
+.bottom-r a:hover{color:#C82333;}
+.bottom-r input{width: 100px;height: 30px;background: #BD4147;border: #f00 solid 1px;border-radius: 5px;color: #fff;float: right;}
